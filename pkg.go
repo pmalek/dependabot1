@@ -1,7 +1,7 @@
 package dependabot1
 
-// "github.com/Pmalek/goprivate"
+import "github.com/Pmalek/goprivate"
 
 func x() {
-	// _ = goprivate.Mysterious{}
+	_ = goprivate.Mysterious{}
 }
