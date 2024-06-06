@@ -5,5 +5,5 @@ import (
 )
 
 func x() {
-	goprivate.Mysterious()
+	_ = goprivate.Mysterious{}
 }
