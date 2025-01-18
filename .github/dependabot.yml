@@ -5,12 +5,12 @@ registries:
     url: https://github.com
     username: pmalek
     password: ${{secrets.PMALEK_PAT}}
-updates:
-  - package-ecosystem: gomod
-    directory: /
-    schedule:
-      interval: daily
-    labels:
-      - dependencies
-    registries:
-      - github
+# updates:
+#   - package-ecosystem: gomod
+#     directory: /
+#     schedule:
+#       interval: daily
+#     labels:
+#       - dependencies
+#     registries:
+#       - github
